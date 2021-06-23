@@ -1,0 +1,240 @@
+#title {
+  background-color: #ff4c68;
+ 
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+
+
+.container-fluid {
+  padding-top: 3%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 2.2rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.fa-apple {
+  padding-right: 5px;
+}
+
+.fa-google-play {
+  padding-right: 5px;
+}
+
+/* Navigation bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  padding-bottom: 40px;
+
+}
+
+.navbar {
+  padding-bottom: 3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+} 
+
+/* section title */
+#title {
+  height: 600px;
+}
+
+/* Titile Image */
+
+.title-image {
+  max-width: 60%;
+  transform: rotate(20deg);
+  position: relative;
+  top: -10%;
+  left: 15%;
+  margin: 2% 2%;  
+}
+
+/* ----------------------------------------------
+Features Section
+------------------------------------------------ */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+ 
+}
+
+.feature-box {
+  text-align: center;
+  /* padding: 5%; */
+}
+
+#features h3 {
+  font-weight: bold;
+}
+
+#features p {
+  font-family: "Montserrat-Bold";
+}
+
+#features .fas {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+#features .fas:hover {
+  color: #ff4c68;
+}
+
+
+
+/* ----------------------------------------------
+Testimonials section
+------------------------------------------------ */
+
+#testimonials {
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+#testimonials h2 {
+  padding-bottom: 3%;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding-top: 3%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-picture {
+  margin: 0 auto;
+}
+
+
+
+
+
+/* ----------------------------------------------
+Press section
+------------------------------------------------ */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+
+/* ----------------------------------------------
+Pricing section
+------------------------------------------------ */
+
+
+
+
+
+#pricing h2, p {
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* ----------------------------------------------
+Footer,Cta section
+------------------------------------------------ */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+#cta h3 {
+  font-family: "Montserrat";
+ 
+  font-size: 2.2rem;
+}
+
+#footer {
+  text-align: center;
+  margin: 3% 0;
+}
+
+#footer .fab {
+  padding-right: 1%;
+}
+
+
+/* ----------------------------------------------
+media query
+------------------------------------------------ */
+
+@media (max-width:1028px) {
+
+  #title {
+    text-align: center;
+    height: 950px;
+  }
+
+
+
+  .title-image {
+    margin: 2% 2% 2% 2%;
+    max-width: 60%;
+    transform: rotate(0);
+    position: static;
+  }
+}
